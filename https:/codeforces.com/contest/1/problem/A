@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  int n,m,a,i,j,ans;
+  scanf("%d %d %d",&n,&m,&a);
+  if (n%a == 0)
+  {
+      i=n/a;
+      }
+    else
+    {
+        i=(n/a)+1;
+    }
+    if(m%a==0)
+    {
+        j=m/a;
+    }
+    else
+    {
+        j=(m/a)+1;
+    }
+       ans=i*j;
+    printf("%d\n",ans);
+}
